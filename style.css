@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main {
+    width: 100%;
+    padding: 50px 10%;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.search {
+    width: 20%;
+    font-size: 18px;
+    text-indent: 20px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.pagination {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 10px;
+}
+
+.pagination button {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+#nums {
+    display: flex;
+    column-gap: 10px;
+}
+
+.table {
+    width: 100%;
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+
+th,td {
+    font-size: 20px;
+    border: 1px solid lightgray;
+    text-align: center;
+    padding: 10px;
+}
